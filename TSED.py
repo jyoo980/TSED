@@ -1,7 +1,7 @@
 import re
 from apted import APTED,PerEditOperationConfig
 from apted.helpers import Tree
-from tree_sitter_languages import get_language, get_parser
+from tree_sitter_language_pack import get_language, get_parser
 
 class Node:
     def __init__(self, name, path):
